@@ -46,7 +46,7 @@ new Promise(function(resolve,reject){
         resolve()
     },1000)
 }).then(()=>{
-    // console.log("Promise2 Consumed..")
+    // console.log("Promise2 Consumed")
 })
 
 //+++++++++3 way++++++++
