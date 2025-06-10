@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+    <style>
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+        #card {
+          display: none;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          width: 300px;
+          padding: 20px;
+          margin-top: 20px;
+          box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        img {
+          width: 100px;
+          border-radius: 50%;
+        }
+      </style>
+</head>
+<body>
+
+    <h1>GitHub Profile Card</h1>
+
+    <button id="infobtn">Show My GitHub Info</button>
+
+
+    <div id="card">
+        <img id="avatar">
+        <h2 id="username"></h2>
+        <p>Followers: <span id="followers"></span></p>
+
+    </div>
+
+</body>
+<script>
+
+    const Card=document.getElementById('card')
+    const Avatar=document.getElementById('avatar')
+    const Username=document.getElementById('username')
+    const Followers=document.getElementById('followers')
+
+    document.getElementById('infobtn').addEventListener('click',()=>{
+    console.log("Click Successfully") 
+    
+   const requestUrl='https://api.github.com/users/AngadBari'
+   const xhr=new XMLHttpRequest()
+   
+   xhr.open('GET',requestUrl)
+   xhr.onreadystatechange= function(){
+   console.log(xhr.readyState)
+   
+    if(xhr.readyState === 4){
+      
+     //Whenever the data come in request in the form of string  so the convert into JSON
+     const data=JSON.parse(this.responseText)//Convet To JSON
+    
+    //console.log(typeof(data))//Show DataType
+    //console.log(data) //All API Data Show
+    
+    //console.log(data.followers)
+      
+    //Data Access From API Respnse(This is the way to access data from API..)
+        Avatar.src=data.avatar_url
+        Username.textContent=data.login
+        Followers.textContent=data.followers
+        Card.style.display='block'
+
+    }
+
+
+}
+   xhr.send()
+})
+
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JavaScript</title>
+</head>
+<body>
+    <h1>Angad Bari</h1>
+    <button id="stopButton">Stop</button>
+</body>
+<script>
+    const sayAngad=(()=>{
+        console.log("Angad Bari")
+    })//After 2s at one time excute
+
+    const changetext=(()=>{
+        document.querySelector('h1').innerHTML="Hello Angad"
+    })
+
+    const chngeMe=setTimeout(changetext,2000)
+    
+    document.getElementById('stopButton').addEventListener('click',()=>{
+        clearTimeout(chngeMe)
+        console.log("stopeed")
+    })
+
+
+</script>
+</html>
