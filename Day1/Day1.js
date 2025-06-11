@@ -3,18 +3,18 @@
 
 //++++++++++++Conversion++++++++++++++
 
-//Number to String Coversion
+//Number to String Conversion
 
 const numinString="33"
-// console.log(`Befor Covesion:- ${typeof(numinString)}`)
+// console.log(`Befor Conversion:- ${typeof(numinString)}`)
 
 //To Number
 const CovetToNumber=Number(numinString)
-// console.log(`After Consvesion:-${typeof(CovetToNumber)}`)
+// console.log(`After Conversion:-${typeof(CovetToNumber)}`)
 
 //To Boolean
 const CovetToBoolean=Boolean(numinString)
-// console.log(`After Consvesion:-${typeof CovetToBoolean}`);
+// console.log(`After Conversion:-${typeof CovetToBoolean}`);
 
 //DIMANG Chalao Bhai eidher
 const WhatDatatype="1" + 2;
