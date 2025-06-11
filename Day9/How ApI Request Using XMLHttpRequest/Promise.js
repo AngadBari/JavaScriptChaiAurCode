@@ -16,7 +16,7 @@
 
 
 
-//++++++Creation Of Promise(Diffrent Way:-)+++++++++++++
+//++++++Creation Of Promise(Different Way:-)+++++++++++++
 
 //1.Comsume Or 2.Create Promise
 
