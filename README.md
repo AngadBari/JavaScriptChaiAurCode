@@ -31,6 +31,7 @@ These notes are based on the excellent **JavaScript tutorial series by Hitesh Ch
 - API Request Using XMLHTTP
 - Promises
 - Fetch
+- OOP
 
 
 ---
