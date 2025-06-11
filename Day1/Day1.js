@@ -1,7 +1,7 @@
-//Topics:-Coversion,DataTypes,Memory,Array
+//Topics:-Conversion,DataTypes,Memory,Array
 
 
-//++++++++++++Coversion++++++++++++++
+//++++++++++++Conversion++++++++++++++
 
 //Number to String Coversion
 
