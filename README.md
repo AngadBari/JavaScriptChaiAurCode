@@ -28,8 +28,9 @@ These notes are based on the excellent **JavaScript tutorial series by Hitesh Ch
 - Events & Event Listeners
 
 ### 🔹 Advanced Topics 
--API Request Using XMLHTTP
--Promises
+- API Request Using XMLHTTP
+- Promises
+- Fetch
 
 
 ---
