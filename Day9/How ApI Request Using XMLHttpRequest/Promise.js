@@ -136,6 +136,8 @@ async function getAllUser(){
 
 //++++++++Above Code Using .then and .Catch+++++++
 
+//Fetch:-is Global mtehod()-->chack MDN 404 ERROR
+
 fetch("https://api.github.com/users/AngadBari")
 .then((response)=>{
     return response.json()

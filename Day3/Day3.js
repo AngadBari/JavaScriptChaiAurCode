@@ -1,5 +1,7 @@
+//Topics:-Function
 
-//++++++++++++++Functiona And Parameters++++++++//
+
+//++++++++++++++Function And Parameters++++++++//
 
 function saymyName(){
     console.log("A")

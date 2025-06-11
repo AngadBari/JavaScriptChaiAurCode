@@ -1,3 +1,8 @@
+//Topics:-Coversion,DataTypes,Memory,Array
+
+
+//++++++++++++Coversion++++++++++++++
+
 //Number to String Coversion
 
 const numinString="33"
@@ -19,7 +24,9 @@ const Whatdatatype=1+1
 // console.log(Whatdatatype)
 // console.log(typeof(Whatdatatype))
 
+
 //++++++++++++++Data Types in JavaScript++++++++++++++
+
 //1.Primative Data Types:-Number, String, Boolean, Null, Undefined, Symbol, BigInt
 //2.Non-primative Data Types:-Object, Array, Function
 
@@ -51,11 +58,9 @@ let user2=user1
 user2.age=19
 //console.log(user1); // Output: { name: 'Angad', age: 19 }
 
+//++++++++++++++++++++++++++Array (Part 1)+++++++++++++++++++++++++++++++++++++++++++++
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-//        Array (Part 1)
-
+    
 //Array:is collection of multiple of item like number,string and any more.
 //Array is Object.
 //Array element access by using Indexcing.start from 0,1,2,...
@@ -72,6 +77,7 @@ const myarr3=new Array( 1, 2, 3, 4)
 //console.log(myarr3)
 
 //+++++++++++++++Array Methods:-+++++++++++++++++++++++++++++++
+
 //  const myarr1=[1, 2, 3, 4, 5]
 // console.log(myarr1)
 
