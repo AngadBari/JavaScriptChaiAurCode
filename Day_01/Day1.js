@@ -8,6 +8,7 @@
 //2.var – is an old-school variable            declration.
 //3.const – is like let, but the value of            the variable can’t be changed.
 
+// and when delclear var thin problem in Scope also.
 
 
 //++++++++++++Conversion++++++++++++++
