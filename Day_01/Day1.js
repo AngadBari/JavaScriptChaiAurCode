@@ -1,4 +1,13 @@
-//Topics:-Conversion,DataTypes,Memory,Array
+//Topics:-Conversion,DataTypes,Memory,Array, Variable 
+
+//++++Variable++++++
+
+// let,Var,Const 
+
+//1.let – is a modern variable declaration.
+//2.var – is an old-school variable            declration.
+//3.const – is like let, but the value of            the variable can’t be changed.
+
 
 
 //++++++++++++Conversion++++++++++++++
