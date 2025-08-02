@@ -3,6 +3,8 @@
 
 //++++++++++++++Function And Parameters++++++++//
 
+// saymyName()
+
 function saymyName(){
     console.log("A")
     console.log("N")
@@ -10,6 +12,7 @@ function saymyName(){
     console.log("A")        
     console.log("D")
 }
+// if you declare this type funtion then you call the funtion berfor initilization or after that work 
 
 // saymyName()
 
@@ -24,9 +27,12 @@ function saymyName(){
 //num1&num2 are parameters
 //2&2 are arguments
 
-function addTwoNumber(num1,num2){
+const addTwoNumber=(num1,num2)=>{
   return num1+num2
 }
+
+//When declare this type then 1st decalre the call..
+
 // const result=addTwoNumber(2,2)
 // console.log(result) //4
 
